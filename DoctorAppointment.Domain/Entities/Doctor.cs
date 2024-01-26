@@ -1,4 +1,5 @@
 ﻿using MyDoctorAppointment.Domain.Enums;
+using System.Xml.Serialization;
 
 namespace MyDoctorAppointment.Domain.Entities
 {

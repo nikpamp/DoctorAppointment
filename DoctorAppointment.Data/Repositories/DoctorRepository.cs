@@ -10,11 +10,18 @@ namespace MyDoctorAppointment.Data.Repositories
 
         public override int LastId { get; set; }
 
-        public DoctorRepository()
+        public DoctorRepository(string serType)
         {
             dynamic result = ReadFromAppSettings();
 
-            Path = result.Database.Doctors.Path;
+            if (serType == "xml")
+            {
+                Path = result.Database.Doctors.PathXml;
+            }
+            else if (serType == "json")
+            {
+                Path = result.Database.Doctors.PathJson;
+            }
             LastId = result.Database.Doctors.LastId;
         }
 

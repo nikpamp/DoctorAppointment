@@ -1,4 +1,6 @@
-﻿namespace MyDoctorAppointment.Domain.Entities
+﻿using System.Xml.Linq;
+
+namespace MyDoctorAppointment.Domain.Entities
 {
     public abstract class Auditable
     {

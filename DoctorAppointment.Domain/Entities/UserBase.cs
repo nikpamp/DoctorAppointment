@@ -1,4 +1,6 @@
-﻿namespace MyDoctorAppointment.Domain.Entities
+﻿using System.Xml.Serialization;
+
+namespace MyDoctorAppointment.Domain.Entities
 {
     public abstract class UserBase : Auditable
     {

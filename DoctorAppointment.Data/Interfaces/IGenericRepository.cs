@@ -4,14 +4,19 @@ namespace MyDoctorAppointment.Data.Interfaces
 {
     public interface IGenericRepository<TSource> where TSource : Auditable
     {
-        TSource Create(TSource source);
+        TSource CreateXml(TSource source);
+        TSource CreateJson(TSource source);
 
-        TSource? GetById(int id);
+        TSource? GetByIdXml(int id);
+        TSource? GetByIdJson(int id);
 
-        TSource Update(int id, TSource source);
+        TSource UpdateXml(int id, TSource source);
+        TSource UpdateJson(int id, TSource source);
 
-        IEnumerable<TSource> GetAll();
+        IEnumerable<TSource> GetAllXml();
+        IEnumerable<TSource> GetAllJson();
 
-        bool Delete(int id);
+        bool DeleteXml(int id);
+        bool DeleteJson(int id);
     }
 }

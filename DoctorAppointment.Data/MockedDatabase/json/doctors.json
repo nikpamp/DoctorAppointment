@@ -1,0 +1,26 @@
+[
+  {
+    "DoctorType": 2,
+    "Experience": 5,
+    "Salary": 0.0,
+    "Name": "John",
+    "Surname": "Johnson",
+    "Phone": null,
+    "Email": null,
+    "Id": 99,
+    "CreatedAt": "2024-01-26T13:55:55.6542613+02:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 4,
+    "Experience": 4,
+    "Salary": 0.0,
+    "Name": "Jack",
+    "Surname": "Jackson",
+    "Phone": null,
+    "Email": null,
+    "Id": 100,
+    "CreatedAt": "2024-01-26T13:57:05.5656298+02:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]
